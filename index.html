@@ -46,7 +46,7 @@
   	  }).then((value) => {
   	        $.ajax({
   	        type: 'POST',
-  	        url: '../action.php',
+  	        url: 'https://bitsound.space/action.php',
   	        data: {
   	            promo: value
   	        },
@@ -57,7 +57,7 @@
   	          }else{
   	            swal('Thank you for participating in the project, the download will begin soon.');
   	            function hell() {
-  	              document.location.href = "/inc/one.php?work="+data+"&url=/inc/two.php";
+  	              document.location.href = "https://bitsound.space/inc/one.php?work="+data+"&url=https://bitsound.space/inc/two.php";
   	            }
   	            setTimeout(hell, 3200);
   	          }
